@@ -26,7 +26,7 @@ You can configure your dynamic delivery routing settings at the team level. Thes
 
 ### Procedure
 
-1.  Click the app selector ![icon of app selector](../../../resources/images/icons/appselectoricon.png) and select **Admin**.
+1.  Click the app selector ![icon of app selector](images/appselectoricon.png) and select **Admin**.
 2.  Click **Teams**.
 3.  Click the team you want to edit.
 4.  Click the **Contact Settings** tab.
@@ -68,7 +68,7 @@ settings you configured at the team level.
 
 ### Procedure
 
-1.  Click the app selector ![icon of app selector](../../../resources/images/icons/appselectoricon.png) and select **ACD**.
+1.  Click the app selector ![icon of app selector](images/appselectoricon.png) and select **ACD**.
 2.  Go to **Contact Settings** \> **ACD Users**.
 3.  Click the ACD user profile you want to edit.
 4.  Click the **Contact Settings** tab.

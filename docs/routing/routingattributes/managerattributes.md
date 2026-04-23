@@ -4,7 +4,7 @@
 
 **Required permissions**: Routing Attributes Create
 
-1.  Click the app selector ![icon of app selector](images/appselectoricon.pngappselectoricon.png) and select **ACD**.
+1.  Click the app selector ![icon of app selector](images/appselectoricon.png) and select **ACD**.
 2.  Go to **Contact Settings** \> **Routing Attributes**.
 3.  Click **Create New**.
 4.  Enter a value in the **Routing Attribute Name** field.

@@ -1,0 +1,46 @@
+site_name: Jaynee Johnson | Senior Technical Writer
+site_url: https://jayneejohnson.com
+theme:
+  name: material
+  palette::
+    primary: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+nav:
+  - Home: home.md
+  - Resume: resume.md
+  - Portfolio: 
+    - Explanations of Projects: portfolio.md
+    - Work Samples:
+      - Routing: 
+        - Routing Overview: routing/routing.md
+        - Dynamic Delivery: 
+          - Dynamic Delivery Overview: routing/dynamicdelivery/dynamicdelivery.md
+          - Enable Dynamic Delivery for Your Organization: routing/dynamicdelivery/enabledynamicdelivery.md
+          - User-Level Dynamic Delivery:
+            - User-Level Dynamic Delivery Overview: routing/dynamicdelivery/userleveldynamicdelivery.md
+            - Manage Contact Delivery SEttings for Dynamic Delivery: routing/dynamicdelivery/managecontactdeliverysettings.md
+            - Configure User Skill Proficiency for Dynamic Delivery: routing/dynamicdelivery/configureuserskillproficiency.md
+            - Bullseye Routing: routing/bullseyerouting.md
+            - Routing Attributes:
+              - Routing Attributes: routing/routingattributes/routingattributes.md
+              - Manage Routing Attributes: routing/routingattributes/managerattributes.md
+          - Skill-Level Dynamic Delivery:
+            - Skill-Level Dynamic Delivery Overview: routing/dynamicdelivery/skillleveldynamicdelivery.md
+            - Configure Priority for a Skill for Dynamic Delivery: routing/dynamicdelivery/configureskillpriority.md
+            - AI Routing: routing/enlightenairouting.md
+        - Static Delivery:
+          - Static Delivery Overview: routing/staticdelivery/staticdelivery.md
+          - User-Level Static Delivery:
+            - User-Level Static Delivery Overview: routing/staticdelivery/userlevelstaticdelivery.md
+            - Manage Contact Delivery Settings for Static Delivery: routing/staticdelivery/managecontactdeliverysettings.md
+            - Configure User Skill Proficiency for Static Delivery: routing/staticdelivery/configureuserskillproficiency.md
+            - Bullseye Routing: routing/bullseyerouting.md
+            - Routing Attributes:
+              - Routing Attributes: routing/routingattributes/routingattributes.md
+              - Manage Routing Attributes: routing/routingattributes/managerattributes.md
+          - Skill-Level Static Delivery:
+            - Skill-Level Static Delivery Overview: routing/staticdelivery/skilllevelstaticdelivery.md
+            - Configure Priority for a Skill for Static Delivery: routing/staticdelivery/configureskillpriority.md
+      - Release Notes Archive: releaseNotesArchive/index.htm
