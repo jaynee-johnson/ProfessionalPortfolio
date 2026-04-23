@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms xml:lang="en-us">
+    <Groups />
+    <Directional>
+        <DirectionalSynonym From="API" To="api" />
+        <DirectionalSynonym From="Requirements" To="requir" />
+        <DirectionalSynonym Stem="true" From="Supported" To="requir" FromStem="support" />
+    </Directional>
+</MadCapSynonyms>

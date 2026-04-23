@@ -1,0 +1,186 @@
+﻿/*<meta />*/
+/*
+label
+{
+	display: block;
+	margin-bottom: 0.25em;
+	width: 100%;
+}
+/*
+
+/*new after ports page was migrated to new script*/
+label
+{
+	display: block;
+	width: 100%;
+	margin-bottom: -24px;
+	margin-top: -30px;
+	margin-left: 24px;
+}
+
+h4.filterHeaders
+{
+	display: block;
+	margin-bottom: 0px;
+	font-size: .875rem;
+	line-height: 24px;
+}
+
+h4.dropDown
+{
+	display: inline;
+	margin-bottom: 0px;
+	font-size: .875rem;
+	line-height: 24px;
+}
+
+div.ourTopicContainer
+{
+	width: 1070px;
+}
+
+div.left-section
+{
+	float: left;
+	width: 70%;
+	padding-right: 10px;
+}
+
+div.right-section
+{
+	width: 25%;
+	float: right;
+	padding-right: 5px;
+}
+
+
+
+/*Styles for Ports*/
+
+.portsHeader
+{
+	text-transform: uppercase;
+	padding: 5px 1px;
+	font-size: 11pt;
+	text-decoration: none;
+	font-weight: 900;
+	color: #007cbe;
+}
+
+.ports-right-section {
+	margin-top: 18em;
+}
+
+#arrowimage {
+	position: fixed; 
+	height: 40px; 
+	width: 40px; 
+	right: 20px; 
+	bottom: 20px; 
+	display: none; 
+	cursor: pointer;
+	border: none;
+}
+
+.pointer {
+cursor: pointer;}
+
+
+/*new for responsiveness*/
+p.portsSubheader
+{
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+p.portsSubheader.firstInList
+{
+	margin-top: 0px;
+}
+
+
+
+
+/* ===== RESPONSIVE STYLES START HERE ===== */
+
+@media only screen and (max-width: 1386px)
+{
+	div.ourTopicContainer
+	{
+		width: calc(100% - 300px);
+	}
+}
+
+@media only screen and (max-width: 1316px)
+{
+	div.ourTopicContainer
+	{
+		width: calc(100% - 255px);
+	}
+
+	.buttons._Skins_Breadcrumbs.mc-component
+	{
+		margin-left: 0px;
+	}
+}
+/*
+@media only screen and (max-width: 850px)
+{
+	.buttons._Skins_Breadcrumbs.mc-component
+	{
+		margin-left: 0px;
+	}
+}
+*/
+@media only screen and (max-width: 767px)
+{
+	div.right-section
+	{
+		font-size: 12px;
+	}
+	
+	label
+	{
+		margin-top: -26px;
+		margin-bottom: -22px;
+	}
+	
+	div.ourTopicContainer
+	{
+		width: calc(100% - 140px);
+	}
+}
+
+@media only screen and (max-width: 625px)
+{
+	div.sideNav
+	{
+		display: none;
+	}
+
+	div.ourTopicContainer
+	{
+		width: calc(100% - 12px);
+		border-left: none;
+	}
+
+	div.topicBody
+	{
+		margin-left: 15px;
+	}
+}
+
+@media only screen and (max-width: 450px)
+{
+	.MCDropDown_Closed
+	{
+		height: auto;
+		width: 200px;
+		margin: 0 0 -10px 0;
+	}
+
+	.card-outline
+	{
+		width: 230px;
+	}
+}
