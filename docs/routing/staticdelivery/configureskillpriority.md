@@ -24,9 +24,9 @@ Mr. Bennet also wants to control how the priority changes for calls over their t
 - Call #3 comes in on the Merchants skill, which also has a priority of 110. Because Mr. Bennet wants calls from merchants to be answered in the shortest time possible, he has also assigned an acceleration of ***10*** to the Merchants skill. The call has been in queue for 4 minutes. It currently has a priority of 150.
 - When an agent becomes available, Call #3 will be delivered first since it has the higher priority.
 
-[Priority management while in queue settings](../../channels/additionalchannelfeatures/skills/images/loc_prioritymanagement.png)
+[Priority management while in queue settings](images/loc_prioritymanagement.png)
 
-1.  Click the app selector [icon of app selector](../../../resources/images/icons/appselectoricon.png) and select **ACD**.
+1.  Click the app selector ![icon of app selector](images/appselectoricon.png) and select **ACD**.
 2.  Go to **Contact Settings** \> **ACD Skills**.
 3.  Click the inbound ACD skill you want to edit.
 4.  Click **Edit**.
@@ -42,7 +42,7 @@ Mr. Bennet also wants to control how the priority changes for calls over their t
 
 ## Configure Priority for a Digital Skill
 
-Digital interactions route differently from ACD interactions. Because of this, you need to configure their priority of your digital skills in a different way. If you switch to a [dynamic delivery](../dynamicdelivery/dynamicdelivery.htm) routing strategy, then you can use the method described in the previous task to manage the priorities of both ACD and digital interactions.
+Digital interactions route differently from ACD interactions. Because of this, you need to configure their priority of your digital skills in a different way. If you switch to a [dynamic delivery](../dynamicdelivery/dynamicdelivery.md) routing strategy, then you can use the method described in the previous task to manage the priorities of both ACD and digital interactions.
 
 ### Configure Filters for Digital Queues and Sub-Queues
 
@@ -57,7 +57,7 @@ A queue must have at least one filter. Agents in the queue must have permissions
 **Example**:
 Contact center administrator Mowgli Kipling wants to avoid routing live chat cases to queues when agents are offline. So, he creates a queue filter called Time Resolver. Then he adds the ***Date and time rule*** under **Condition type**. He selects ***Exclude selected days and times***. He reviews when the agents assigned to this live chat channel queue are scheduled and selects the dates and times when none of them are online. This ensures that no cases are assigned to this live chat queue when the agents assigned to it are offline. This specific queue filter only applies to live chat. Other channels route based on agent status.
 
-1.  Click the app selector [icon of app selector](images/appselectoricon.png) and select **ACD**.
+1.  Click the app selector ![icon of app selector](images/appselectoricon.png) and select **ACD**.
 2.  Go to **Digital** \> **Routing Queues**.
 3.  Locate the routing queue or sub-queue you want to work on and click the associated **Filters** link.
 4.  Click **Add routing queue filter**.

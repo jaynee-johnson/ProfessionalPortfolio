@@ -1,7 +1,7 @@
 # Manage Contact Delivery Settings for Dynamic Delivery
 
 **Note**:
-This page is specific to a dynamic delivery routing strategy. If your organization uses a static delivery routing strategy, you can [find this information](../staticdelivery/managecontactdeliverysettings.htm) in the static delivery online help.
+This page is specific to a dynamic delivery routing strategy. If your organization uses a static delivery routing strategy, you can [find this information](../staticdelivery/managecontactdeliverysettings.md) in the static delivery online help.
 
 Dynamic delivery lets you create a unique workload for each team or agent. What you configure for a team is overridden by anything you configure at the agent level. You can have a team configured for single contact handling, where each agent handles one contact from one channel at a time, while one agent on the team is able to handle a voice contact plus a chat contact at the same time.
 
@@ -11,7 +11,7 @@ Dynamic delivery lets you create a unique workload for each team or agent. What 
 
 You can configure your dynamic delivery routing settings at the team level. These settings apply to all users assigned to the team unless the user has different settings in their profile that override the team settings.
 
-[The Contact Settings tab of a team in an environment where dynamic delivery is enabled.](images/loc-cx1_teamoshsettings.png)
+![The Contact Settings tab of a team in an environment where dynamic delivery is enabled.](images/loc-cx1_teamoshsettings.png)
 
 ### Learn more about fields in this task
 
@@ -26,7 +26,7 @@ You can configure your dynamic delivery routing settings at the team level. Thes
 
 ### Procedure
 
-1.  Click the app selector [icon of app selector](../../../resources/images/icons/appselectoricon.png) and select **Admin**.
+1.  Click the app selector ![icon of app selector](../../../resources/images/icons/appselectoricon.png) and select **Admin**.
 2.  Click **Teams**.
 3.  Click the team you want to edit.
 4.  Click the **Contact Settings** tab.
@@ -45,7 +45,7 @@ You can configure your dynamic delivery routing settings at the team level. Thes
 Any contact settings you configure for an agent will override the
 settings you configured at the team level.
 
-[The Contact Settings tab for a user in an environment where dynamic delivery is enabled.](images/loc-useroshgranular.png)
+![The Contact Settings tab for a user in an environment where dynamic delivery is enabled.](images/loc-useroshgranular.png)
 
 ### Learn more about fields in this task
 
@@ -57,7 +57,7 @@ settings you configured at the team level.
 | Agent Voice Threshold            | <p>The volume level of the agent\'s voice. This setting helps to accurately distinguish the agent\'s voice from background noise. The threshold range is based on a custom volume unit computed by the frequency analyzer.</p><p>Users with proper permissions can change this value themselves through the **Voice Threshold** tuning setting in MAX. |
 | Suppress Ringing - Personal Connection | When the agent uses a Personal Connection ACD skill, this setting prevents them from hearing a ringing sound before the system answers the call. Instead, the agent first hears audio when they receive the answered call from the network. This setting overrides the skill setting for **Treat Progress as Ringing**. |
 | Maximum Concurrent Chats         | Available only in a single-contact handling environment. Specifies maximum number of chats the user may engage in simultaneously. It\'s either the ***Team Default***, or the maximum number of chats allowed for the team the user belongs to, or a number between ***1*** and ***12***. |
-| Maximum Email Auto-Parking Limit | Available only in a single-contact handling environment, specifies the maximum number of emails the user may contain in the inbox at one time. It\'s either the ***Team Default***, or the maximum number of emails allowed for the team the user belongs to, or a number between ***1*** and ***25***. |
+| Maximum Email Auto-Parking Limit | Available only in a single-contact handling environment, specifies the maximum number of emails the user may contain in the inbox at one time. It\'s either the ***Team Default***, or the maximum number of emails allowed for the team the user belongs to, or a number between ***1*** and ***25***. |
 | Contact Handling: Voice, Chats, SMS, Emails, Work Items, Digital | <p>Available only in a dynamic delivery environment, specifies the maximum number of simultaneous contacts the user can handle. The maximum allowed voice contacts is ***1*** (including phone and voicemail); chats, ***12***; emails, ***25***; work items, ***25***, and digital, ***50***.</p><p>If your tenant is enabled for Digital Engagement:</p><ul><li>**Chat** applies to any combination of omnichannel chat, live chat, and chat  messaging.</li><li>**Emails** applies to all CXone Mpower email interactions, whether routed through the ACD or through the digital inbox.</li><li>**SMS** applies to all SMS Messaging interactions, whether routed through the ACD or through the digital inbox.</li><li>**Digital** applies to all other digital interactions.</li></ul> |
 | Request Contact                  | <p>Available only in a dynamic delivery environment, enables the user to manually request an additional digital (non-voice) contact, if the current state is ***Working***.</p><p>**Note**: This feature isn\'t currently supported for Digital Experience channels or the Agent applications.</p> |
 | Channel Lock                     | Temporarily locks an agent to the channel they\'re currently handling. For example, if the agent configured to handle ***2*** chat interactions and ***1*** voice interaction has a **Total Contact Count** of ***3***, they can receive one voice or two chat interactions, but not both at the same time. When the agent\'s interactions have ended, the lock will end. The agent will then be able to receive interactions from any configured channel. |
@@ -68,7 +68,7 @@ settings you configured at the team level.
 
 ### Procedure
 
-1.  Click the app selector [icon of app selector](../../../resources/images/icons/appselectoricon.png) and select **ACD**.
+1.  Click the app selector ![icon of app selector](../../../resources/images/icons/appselectoricon.png) and select **ACD**.
 2.  Go to **Contact Settings** \> **ACD Users**.
 3.  Click the ACD user profile you want to edit.
 4.  Click the **Contact Settings** tab.

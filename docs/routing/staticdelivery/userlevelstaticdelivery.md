@@ -1,7 +1,7 @@
 #  User-Level Static Delivery
 
-**Note**: This page is specific to a static delivery routing strategy. If your organization uses a dynamic delivery routing strategy, you can [find this information](../dynamicdelivery/userleveldynamicdelivery.htm) in the dynamic delivery online help.
+**Note**: This page is specific to a static delivery routing strategy. If your organization uses a dynamic delivery routing strategy, you can [find this information](../dynamicdelivery/userleveldynamicdelivery.md) in the dynamic delivery online help.
 
 Several features manage your static delivery experience at the team and user level. In the team and user profiles, you can set the maximum number of chats agents can handle at the same time, and the maximum number of emails they can have waiting in their inbox at any time. The user-level settings override the team-level settings. You can set users\' proficiency levels in the skills they are assigned to. Agents with a higher proficiency have priority over agents with a lower proficiency in routing decisions. You can use these features to reduce the pool of agents eligible to receive an interaction by:
-- [Bullseye routing](../bullseyerouting.htm) sets a range of proficiency levels required for agents to receive the interaction.
-- Use [routing attributes](../routingattributes/routingattributes.htm) to limit routing to agents with certain qualities. With static delivery, you can only use one routing attribute at a time.
+- [Bullseye routing](../bullseyerouting.md) sets a range of proficiency levels required for agents to receive the interaction.
+- Use [routing attributes](../routingattributes/routingattributes.md) to limit routing to agents with certain qualities. With static delivery, you can only use one routing attribute at a time.
