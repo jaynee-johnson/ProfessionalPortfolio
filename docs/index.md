@@ -1,17 +1,6 @@
-# Welcome to MkDocs
+Hello! I'm Jaynee. I'm an accomplished technical writer with over 15 years of experience writing customer-facing software documentation. I'm an expert at MadCap Flare, have used Git and Jira extensively, and can work magic with CSS. Some of my experience has also included developer documentation (specifically SDKs) and internal KB work. 
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Here are some quick links to get started with my professional profile:
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        home.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [My resume](resume.md)
+- [My portfolio](portfolio.md)

@@ -2,13 +2,14 @@ site_name: Jaynee Johnson | Senior Technical Writer
 site_url: https://jayneejohnson.com
 theme:
   name: material
-  palette::
-    primary: indigo
+  palette:
+    primary: blue grey
+    accent: teal
   features:
     - navigation.tabs
     - navigation.sections
 nav:
-  - Home: home.md
+  - Home: index.md
   - Resume: resume.md
   - Portfolio: 
     - Explanations of Projects: portfolio.md
