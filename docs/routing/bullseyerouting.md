@@ -1,6 +1,6 @@
 # Bullseye Routing
 
-Bullseye routing lets you use agent proficiency, [routing attributes](routingattributes/routingattributes.htm), or both in your
+Bullseye routing lets you use agent proficiency, [routing attributes](routingattributes/routingattributes.md), or both in your
 call scripting to dynamically add or remove agents from the available pool. This lets you better manage contact wait time and ensure that interactions are assigned both to a qualified agent and in a timely manner.
 
 ## Bullseye Routing with Skill Proficiency
@@ -28,6 +28,6 @@ If you use WFM, review the documentation for your WFM product before you set up 
 
 ## Key Facts About Bullseye Routing with Skill Proficiency
 
-- You can use bullseye routing with skill proficiency either alone or together with [routing attributes](routingattributes/routingattributes.htm). In the preceding example, Marguerite assigned proficiency based on the agent\'s fiction book knowledge. She also uses routing attributes to define the language of the agent. This combination helps her ensure the best experience for Classics customers. To see how that\'s set up, click the link in the first sentence of this bullet. Routing attributes are currently in controlled release. To learn more, contact your Account Representative.
+- You can use bullseye routing with skill proficiency either alone or together with [routing attributes](routingattributes/routingattributes.md). In the preceding example, Marguerite assigned proficiency based on the agent\'s fiction book knowledge. She also uses routing attributes to define the language of the agent. This combination helps her ensure the best experience for Classics customers. To see how that\'s set up, click the link in the first sentence of this bullet. Routing attributes are currently in controlled release. To learn more, contact your Account Representative.
 - You can assign proficiencies to agents in either the ACD user profile record.
 - Bullseye routing can be configured in the **COUNTAGENTS**, **GETQUEUE**, **REQAGENT**, and **UpdateContact** Studio actions.

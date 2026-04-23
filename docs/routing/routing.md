@@ -1,6 +1,6 @@
 # Routing
 
-You can choose from two different CXone Mpower routing experiences for your contact center: [static delivery](staticdelivery/staticdelivery.htm) and [dynamic delivery](dynamicdelivery/dynamicdelivery.htm).
+You can choose from two different CXone Mpower routing experiences for your contact center: [static delivery](staticdelivery/staticdelivery.md) and [dynamic delivery](dynamicdelivery/dynamicdelivery.md).
 
 - **Static delivery**: The legacy CXone Mpower routing experience. It routes interactions based on agent availability and[proficiency in the related skill. It allows agents to handle one contact at a time, with the exception of multiple concurrent chats and email parking.
 
@@ -20,8 +20,8 @@ This table shows what the static delivery and dynamic delivery routing options s
 |          | Least occupied |   | X |
 |          | AI modeling |   | X |
 | Route by | Skill routing | X | X |
-|          | [Bullseye routing](bullseyerouting.htm) | X | X |
-|          | Single [routing attribute](routingattributes/routingattributes.htm) | X | X |
+|          | [Bullseye routing](bullseyerouting.md) | X | X |
+|          | Single [routing attribute](routingattributes/routingattributes.md) | X | X |
 |          | Multiple routing attributes |   | X |
 |          |Digital routing  | Separate routing system | X |
 | User/team settings | **Request Contact** |   | X |
@@ -45,9 +45,9 @@ The routing criteria for an interaction consists of:
 
 - The skill associated with the interaction in queue.
 - The priority of the interaction when placed in the queue.
-- The [bullseye](bullseyerouting.htm) range of skill proficiencies the agent must have to receive the interaction.
+- The [bullseye](bullseyerouting.md) range of skill proficiencies the agent must have to receive the interaction.
 
-- The [attribute](routingattributes/routingattributes.htm) defined for the skill that an agent must be assigned to receive the
+- The [attribute](routingattributes/routingattributes.md) defined for the skill that an agent must be assigned to receive the
   interaction.
 
 A skill channel consists of:

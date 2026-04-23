@@ -19,13 +19,13 @@ AI Routing follows this process:
 - When you choose a focus metric for your skill, you also select the weight. The weight setting determines how heavily AI Routing favors agents likely to meet your KPI over agents who have been underutilized.
 - You can use A/B toggle settings to measure the impact of routing decisions. This lets you precisely evaluate KPI improvements.
 - If AI Routing times out, the CXone Mpower ACD instead uses the default routing methodology.
-- You must have [dynamic delivery](dynamicdelivery/dynamicdelivery.htm) enabled to use AI Routing.
+- You must have [dynamic delivery](dynamicdelivery/dynamicdelivery.md) enabled to use AI Routing.
 - You can use AI Routing with bullseye routing. See the Routing Methodologies section of this page for more information.
 - AI Routing uses the Process Communication Model.
 
 ## Routing Methodologies
 
-AI Routing works seamlessly with [attribute-based routing](routingattributes/routingattributes.htm) and [bullseye routing](bullseyerouting.htm). Attribute-based routing lets you limit the pool of potential agents based an agent attribute that you choose. AI Routing considers and uses the routing attributes decision-making process.
+AI Routing works seamlessly with [attribute-based routing](routingattributes/routingattributes.md) and [bullseye routing](bullseyerouting.md). Attribute-based routing lets you limit the pool of potential agents based an agent attribute that you choose. AI Routing considers and uses the routing attributes decision-making process.
 
 Depending on the configuration of bullseyerouting, the pool of agents AI Routing may decrease. However, AI Routing can still pair
 contacts with the best available agents from the reduced pool.
