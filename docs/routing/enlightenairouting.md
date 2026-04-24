@@ -8,7 +8,7 @@ AI Routing follows this process:
 1.  You choose a KPI as the most important target metric for a given ACD skill. For example, you might choose average
     handle time.
 2.  AI Routing generates a model for the target metric. It predicts a the best outcome by finding patterns across agent, CX, and contact data.
-3.  When a contact enters CXone Mpower, it\'s paired with the best possible agent for meeting the target metric.
+3.  When a contact enters CXone Mpower, it's paired with the best possible agent for meeting the target metric.
 
 ## Key Facts About AI Routing
 
@@ -30,8 +30,9 @@ AI Routing works seamlessly with [attribute-based routing](routingattributes/rou
 Depending on the configuration of bullseyerouting, the pool of agents AI Routing may decrease. However, AI Routing can still pair
 contacts with the best available agents from the reduced pool.
 
-**Example**:
-Marguerite Blakeney, the administrator at Classics, Inc., wants to improve her company\'s Average Handle Time (AHT). To do so, she takes the following steps using bullseye routing together:
+**Learn more from a use case**:
+
+Marguerite Blakeney, the administrator at Classics, Inc., wants to improve her company's Average Handle Time (AHT). To do so, she takes the following steps using bullseye routing together:
 - Marguerite reviews her agents to make sure she has their proficiency levels correctly assigned.
 - She pulls some reports, such as the Skill Performance Report, to help her understand which inbound phone ACD skills have high AHT.
 - Marguerite and her Studio developer review her routing scripts for each ACD skill that has high AHT.

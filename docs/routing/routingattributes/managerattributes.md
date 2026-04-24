@@ -46,7 +46,7 @@ When you create a routing attribute, you must assign it to users. You can do thi
 
 **Required permissions**: Routing Attributes Deactivate
 
-You can have up to 5,000 active routing attributes in your CXone Mpower system. You can deactivate routing attributes as needed to stay within the limit. You can reactivate them later if you need to. Deactivation and activation happen immediately. If you don\'t see an attribute you want to reactivate in the Routing Attributes list, make sure the **Show** field in the upper right corner is set correctly.
+You can have up to 5,000 active routing attributes in your CXone Mpower system. You can deactivate routing attributes as needed to stay within the limit. You can reactivate them later if you need to. Deactivation and activation happen immediately. If you don't see an attribute you want to reactivate in the Routing Attributes list, make sure the **Show** field in the upper right corner is set correctly.
 
 1.  Click the app selector ![icon of app selector](images/appselectoricon.png) and select **ACD**.
 2.  Go to **Routing Attributes**.
@@ -59,7 +59,7 @@ You can apply routing attributes as ACD routing criteria in the **Reqagent**, **
 
 You must have [dynamic delivery](../dynamicdelivery/dynamicdelivery.md) enabled to assign more than one routing attribute per interaction.
 
-These steps assume you already have your Studio routing scripts set up. If you haven\'t done that and you\'re new to Studio, see Desktop Studio Fundamentals to get started. You can also contact your Account Representative for help.
+These steps assume you already have your Studio routing scripts set up. If you haven't done that and you're new to Studio, see Desktop Studio Fundamentals to get started. You can also contact your Account Representative for help.
 
 **Required permissions**: Studio Scripts Create/Edit
 

@@ -21,7 +21,7 @@ nav:
           - Enable Dynamic Delivery for Your Organization: routing/dynamicdelivery/enabledynamicdelivery.md
           - User-Level Dynamic Delivery:
             - User-Level Dynamic Delivery Overview: routing/dynamicdelivery/userleveldynamicdelivery.md
-            - Manage Contact Delivery SEttings for Dynamic Delivery: routing/dynamicdelivery/managecontactdeliverysettings.md
+            - Manage Contact Delivery Settings for Dynamic Delivery: routing/dynamicdelivery/managecontactdeliverysettings.md
             - Configure User Skill Proficiency for Dynamic Delivery: routing/dynamicdelivery/configureuserskillproficiency.md
             - Bullseye Routing: routing/bullseyerouting.md
             - Routing Attributes:

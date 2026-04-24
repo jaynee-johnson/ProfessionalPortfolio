@@ -22,14 +22,14 @@ This table shows what the static delivery and dynamic delivery routing options s
 | Route by | Skill routing | X | X |
 |          | [Bullseye routing](bullseyerouting.md) | X | X |
 |          | Single [routing attribute](routingattributes/routingattributes.md) | X | X |
-|          | Multiple routing attributes |   | X |
+|          | Multiple [routing attributes](routingattributes/routingattributes.md) |   | X |
 |          |Digital routing  | Separate routing system | X |
 | User/team settings | **Request Contact** |   | X |
 |                    | **Channel Lock** |   | X |
 |                    | **Contact Auto-Focus** |   | X |
 |                    | Concurrent chats (**Maximum Concurrent Chats**) |   | X  |
 |                    | Manual email parking | X | X |
-|                    | Auto email parking (**Maximum Email Auto-Parking Limit**) **Note**: This feature isn\'t supported in digital email channels. | X |   |
+|                    | Auto email parking (**Maximum Email Auto-Parking Limit**) **Important**: This feature isn't supported in digital email channels. | X |   |
 |                    | Email interruption | X |   |
 | Handling features | Contact elevation: Agents can elevate a contact from one channel to another. |   | X |
 | Agent applications | Salesforce Agent | X | X |

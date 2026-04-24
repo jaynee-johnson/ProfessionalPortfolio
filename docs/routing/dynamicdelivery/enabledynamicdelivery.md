@@ -1,9 +1,9 @@
 # Enable Dynamic Delivery for Your Organization
 
-**Note**:
+**Important**:
 This page is specific to a dynamic delivery routing strategy. If your organization uses a static delivery routing strategy, you can [find this information](../staticdelivery/configureuserskillproficiency.md) in the static delivery online help.
 
-**Required permissions**:External Business Unit Edit
+**Required permissions**: External Business Unit Edit
 
 **Tip**:
 Switching from static delivery to dynamic delivery changes the experience for your agents. You need to train your agents on:

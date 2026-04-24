@@ -1,6 +1,6 @@
 # Configure User Skill Proficiency for Dynamic Delivery
 
-**Note**:
+**Important**:
 This page is specific to a dynamic delivery routing strategy. If your organization uses a static delivery routing strategy, you can [find this information](../staticdelivery/configureuserskillproficiency.md) in the static delivery online help.
 
 **Required permissions**: ACD Users Edit
