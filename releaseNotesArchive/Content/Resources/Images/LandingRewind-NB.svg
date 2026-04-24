@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="66.671"
+   height="66.671"
+   viewBox="0 0 66.671 66.671"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="LandingRewind-NB.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview5"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="13.994091"
+     inkscape:cx="33.335499"
+     inkscape:cy="33.764251"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5" />
+  <defs
+     id="defs1">
+    <style
+       id="style1">.a{fill:none;}.b{fill:#00a7ea;}.c{clip-path:url(#a);}.d{fill:#0089ce;}.e,.f{fill:#fff;}.e{opacity:0.2;isolation:isolate;}</style>
+    <clipPath
+       id="a">
+      <circle
+         class="a"
+         cx="33.335"
+         cy="33.335"
+         r="33.335"
+         id="circle1" />
+    </clipPath>
+  </defs>
+  <circle
+     class="b"
+     cx="33.335"
+     cy="33.335"
+     r="33.335"
+     id="circle2"
+     style="fill:#5192f5;fill-opacity:1" />
+  <g
+     class="c"
+     clip-path="url(#a)"
+     id="g3"
+     style="display:inline">
+    <g
+       transform="translate(14.91,19.829)"
+       id="g2">
+      <path
+         class="d"
+         d="m -7321.609,185.307 -12.6056,-2.2063 -35.9801,-36.19109 18.788,-12.38688 10.2301,8.58766 11.0843,-8.38384 22.8626,24.87571 0.6917,19.42074 c 0.028,3.47021 -2.7628,6.30595 -6.233,6.334 h -0.1 z"
+         transform="translate(7366.413,-133.392)"
+         id="path2"
+         sodipodi:nodetypes="ccccccccccc"
+         style="display:inline;fill:#2f33f5;fill-opacity:1" />
+    </g>
+  </g>
+  <circle
+     class="e"
+     cx="3.0050001"
+     cy="3.0050001"
+     r="3.0050001"
+     transform="translate(19.419,19.659)"
+     id="circle3"
+     style="display:none" />
+  <circle
+     class="e"
+     cx="3.0050001"
+     cy="3.0050001"
+     r="3.0050001"
+     transform="translate(40.456,19.659)"
+     id="circle4"
+     style="display:none" />
+  <path
+     class="f"
+     d="m -7333.531,132.219 h -2.327 v -1 a 2,2 0 0 0 -2,-2 2,2 0 0 0 -2,2 v 1 h -17.042 v -1 a 2,2 0 0 0 -2,-2 2,2 0 0 0 -2,2 v 1 h -2.328 a 3.183,3.183 0 0 0 -3.182,3.182 v 0 26.699 a 3.183,3.183 0 0 0 3.182,3.182 h 29.7 a 3.182,3.182 0 0 0 3.182,-3.182 v 0 -26.7 a 3.182,3.182 0 0 0 -3.185,-3.181 z m 0.173,27.932 a 2.119,2.119 0 0 1 -2.119,2.121 h -25.812 a 2.121,2.121 0 0 1 -2.122,-2.119 v -17.8 a 2.121,2.121 0 0 1 2.122,-2.121 h 25.81 a 2.12,2.12 0 0 1 2.121,2.121 z"
+     transform="translate(7381.323,-113.563)"
+     id="path4"
+     style="display:none" />
+  <path
+     d="M 51.253441,46.149252 32.016977,33.324943 51.253441,20.500634 Z m -21.373849,0 L 10.643129,33.324943 29.879592,20.500634 Z M 25.604823,33.324943 Z m 21.373848,0 z m -21.373848,4.809116 v -9.618232 l -7.267109,4.809116 z m 21.373848,0 v -9.618232 l -7.267108,4.809116 z"
+     id="path1"
+     style="stroke-width:0.0534346;fill:#ffffff" />
+  <path
+     class="f"
+     d="m -7352.326,152.24 -2.849,-2.662 a 0.536,0.536 0 0 1 -0.027,-0.758 0.54,0.54 0 0 1 0.305,-0.164 l 3.846,-0.642 a 0.542,0.542 0 0 0 0.4,-0.3 l 1.65,-3.533 a 0.536,0.536 0 0 1 0.715,-0.258 0.531,0.531 0 0 1 0.249,0.238 l 1.8,3.459 a 0.54,0.54 0 0 0 0.411,0.285 l 3.87,0.478 a 0.537,0.537 0 0 1 0.467,0.6 0.534,0.534 0 0 1 -0.149,0.31 l -2.735,2.78 a 0.539,0.539 0 0 0 -0.143,0.479 l 0.741,3.829 a 0.537,0.537 0 0 1 -0.427,0.629 0.538,0.538 0 0 1 -0.34,-0.046 l -3.49,-1.741 a 0.536,0.536 0 0 0 -0.5,0.011 l -3.412,1.887 a 0.536,0.536 0 0 1 -0.73,-0.209 0.534,0.534 0 0 1 -0.061,-0.34 l 0.577,-3.856 a 0.536,0.536 0 0 0 -0.168,-0.476 z"
+     transform="translate(7381.323,-113.563)"
+     id="path5"
+     style="display:none" />
+</svg>
