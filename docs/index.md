@@ -1,6 +1,8 @@
-Hello! I'm Jaynee. I'm an accomplished technical writer with over 15 years of experience writing customer-facing software documentation. I'm an expert at MadCap Flare, have used Git and Jira extensively, and can work magic with CSS. Some of my experience has also included developer documentation (specifically SDKs) and internal KB work. 
+# Jaynee Johnson
+### Senior Technical Writer
 
-Here are some quick links to get started with my professional profile:
+With 15+ years of experience writing customer-facing  software documentation, I specialize in turning complex technical concepts into clear, usable content.
 
-- [My resume](resume.md)
-- [My portfolio](portfolio.md)
+My expertise includes MadCap Flare, CSS, Git, and Jira. I've also contributed to internal knowledge bases and developer documentation (SDKs).
+
+This site was built using MkDocs Material and is maintained as a live docs-as-code project. The repository is [available on GitHub](https://github.com/jaynee-johnson/ProfessionalPortfolio).

@@ -30,8 +30,11 @@ Mr. Bennet also wants to control how the priority changes for calls over their t
 2.  Go to **Contact Settings** \> **ACD Skills**.
 3.  Click the inbound ACD skill you want to edit.
 4.  Click **Edit**.
-5.  Set the **Initial Priority**, **Acceleration**, **Maximum Priority**. If you're creating a Personal Connection skill with priority blending enabled, set the **Initial Priority**, **Priority Initial Priority**, and **Reschedule Priority** instead. Learn more about fields in this step:
-    | Field | Details                                                                                                                              |
+5.  Set the **Initial Priority**, **Acceleration**, **Maximum Priority**. If you're creating a Personal Connection skill with priority blending enabled, set the **Initial Priority**, **Priority Initial Priority**, and **Reschedule Priority** instead. 
+
+    Learn more about fields in this step:
+
+    | Field | Details     |
     |-------|--------------------------------------------------------------------------------------------------------------------------------------|
     | Initial Priority  | <p>Enter a numeric value you want to set as the base level priority for all contacts in an inbound skill or for fresh records and retries in an outbound skill (callbacks always take priority and are not affected by this setting). The default value is ***0***. |
     | Acceleration | Enter a numeric value to determine how quickly the priority of the skill increases. For every minute a contact stays in queue, the priority increases by the value you configure for **Acceleration**.</p><p>The default value is ***1***. The minimum value is ***0*** and the maximum priority is the value configured in the **Maximum Priority** field.</p><p>For example, if the **Initial Priority** is ***4***, and you set **Acceleration** to ***1***, then with each passing minute that the contact is not handled, the priority increases by one. In this example, if the contact has been in queue for three minutes, then the priority will be raised to ***7***.</p><p>Priority increments in seconds. For example, when **Acceleration** is ***1***, a contact's priority increases by 0.5 after 30 seconds in queue.</p><p>For Personal Connection skills, set this value to ***0*** because there is no queue of contacts.</p><p>You can set **Initial Priority** for one skill lower than another skill, but if you set **Acceleration** for that skill higher, it can jump spots in the queue. For example, you set **Initial Priority** for Skill A to ***1*** and **Acceleration** to ***5***. You set **Initial Priority** for Skill B to ***3*** and **Acceleration** to ***1***. Initially, a contact for Skill B will be first in queue because it has a priority of ***4***, but after one minute, Skill A will take its place at the top because its priority will be ***6***.</p><p>CXone Mpower combines the acceleration value with the time the contact has been in queue and the initial priority using the formula Overall Priority = (Time \* **Acceleration**) + **Initial Priority**.</p> |
@@ -65,8 +68,9 @@ Contact center administrator Mowgli Kipling wants to avoid routing live chat cas
 6.  From the **Filtered case priority** drop-down, select the priority that cases should have if included in this filter. The smaller the number, the lower the priority (0 is the smallest number, so it is the lowest priority). This overrides the **Prioritize routing** general routing setting.
 7.  Click **Save**.
 8.  Select a **Condition type** from the drop-down. Click   **Create condition for selected type**. The next page will allow you to configure the criteria for the condition. After configuring a condition, you can add more. 
+  
+    Learn more about additional configuration for each condition type:
 
-    **Learn more about additional configuration for each condition type**:
     | Field | Details |
     |-------|---------|
     | Included Channels Rule | Includes the selected channels in the filter. The next page displays the list of channels you can choose from. You can search for the one you want. Click **Add** for each channel you want to include in the filter. Changes are saved automatically. |
@@ -83,7 +87,7 @@ Contact center administrator Mowgli Kipling wants to avoid routing live chat cas
     | Custom rule | <p>Includes a URL endpoint to validate data against another source. The next page allows you enter a URL endpoint. Use the **documentation** link in the administration portal to create this type of custom rule, or talk to your account manager. </p><p>For example, you might configure a custom rule that validates order  numbers mentioned in Facebook messages against your order database to help determine whether a negative comment is real or fraudulent.</p> |
     | Date and time rule | <p>Routes cases based on date and time settings.</p><p>The next page allows you to set the following criteria:</p> <ul><li>Include or exclude</li><li>Day of the week or date range</li><li>Up to three time slots</li></ul><p>For example, you could set up three queues with the same filter rules except for date and time. This would allow you to route cases for a channel to different agents based on the shift they work.</p> |
     | Include based on Post IDs | <p>Includes any cases from the specified Post ID. The Post ID is based on the external platform you are referencing.</p><p>The next page allows you to enter any Post IDs you want to include content from. Separate multiple entries with commas.</p> |
-    | Exclude based on Post IDs | <p>Excludes any cases from the specified Post ID. The Post ID is based on the external platform you are referencing.</,p> <p>The next page allows you to enter any Post IDs you want to exclude content from. Separate multiple entries with commas.</p> |
+    | Exclude based on Post IDs | <p>Excludes any cases from the specified Post ID. The Post ID is based on the external platform you are referencing.</p> <p>The next page allows you to enter any Post IDs you want to exclude content from. Separate multiple entries with commas.</p> |
 
 9.  If you added multiple filters, use the up and down arrows to order them. As with queues, incoming cases are compared to the first filter in the list, then the next, and so on down the list. Therefore, the filter at the top should be the most specific and the filter at the bottom should be the broadest.
 

@@ -21,12 +21,12 @@ Interactions in a dynamic delivery environment route based on how long agents ha
 - All agents can elevate contacts to a different channel.
 - The agent Refused state has different rules for dynamic delivery. When an Available agent refuses a contact of any type, they enter a ***Refused*** state. When a Working agent refuses a digital interaction or allows it to time out, they don't enter a Refused state. If you use automatic delivery, the agent receives requests until they have the maximum number of interactions, they become Unavailable, or the queue is empty. If an agent is connected to the agent leg, they cannot refuse a contact.
 - For reporting purposes, dynamic delivery tracks the agent focus time for each interaction. While an agent can see multiple digital interactions at once, only one of them can receive focus time. CXone Mpower determines the interaction in focus from:
-  - Where the agent's cursor is.
-  - Which part of the agent application interface is active.
+    - Where the agent's cursor is.
+    - Which part of the agent application interface is active.
 - Dynamic delivery is reported in the following metrics:
-  - Concurrent Time
-  - Agent Time
-  - Productivity Rate
-  - Elevations
-  - Elevated
-  - Parent ContactID
+    - Concurrent Time
+    - Agent Time
+    - Productivity Rate
+    - Elevations
+    - Elevated
+    - Parent ContactID

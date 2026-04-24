@@ -12,7 +12,7 @@ nav:
   - Home: index.md
   - Resume: resume.md
   - Portfolio: 
-    - Explanations of Projects: portfolio.md
+    - Project Explanations: portfolio.md
     - Work Samples:
       - Routing: 
         - Routing Overview: routing/routing.md
@@ -25,7 +25,7 @@ nav:
             - Configure User Skill Proficiency for Dynamic Delivery: routing/dynamicdelivery/configureuserskillproficiency.md
             - Bullseye Routing: routing/bullseyerouting.md
             - Routing Attributes:
-              - Routing Attributes: routing/routingattributes/routingattributes.md
+              - Routing Attributes Overview: routing/routingattributes/routingattributes.md
               - Manage Routing Attributes: routing/routingattributes/managerattributes.md
           - Skill-Level Dynamic Delivery:
             - Skill-Level Dynamic Delivery Overview: routing/dynamicdelivery/skillleveldynamicdelivery.md
@@ -39,7 +39,7 @@ nav:
             - Configure User Skill Proficiency for Static Delivery: routing/staticdelivery/configureuserskillproficiency.md
             - Bullseye Routing: routing/bullseyerouting.md
             - Routing Attributes:
-              - Routing Attributes: routing/routingattributes/routingattributes.md
+              - Routing Attributes Overview: routing/routingattributes/routingattributes.md
               - Manage Routing Attributes: routing/routingattributes/managerattributes.md
           - Skill-Level Static Delivery:
             - Skill-Level Static Delivery Overview: routing/staticdelivery/skilllevelstaticdelivery.md
