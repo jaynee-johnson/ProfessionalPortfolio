@@ -1,4 +1,4 @@
-# Technical Writing Portfolio - Project Explanations
+# Technical Writing Portfolio
 
 | Project | What It Shows | Description |
 |---------|-------------|---------------|
