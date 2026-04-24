@@ -64,6 +64,4 @@ Resourceful and accomplished Senior Technical Writer with deep expertise in docu
 ### Tools & Technologies
 MadCap Flare (Advanced) | HTML | CSS | Git | SnagIt JIRA | Confluence | Bitbucket | Microsoft 365 | XML | RESTful APIs Microservices & Cloud Infrastructure | GitHub | SDKs & Developer Tools
 
-### Portfolio & Work Samples
-[Work samples](portfolio.md)
-
+### [Portfolio & Work Samples](portfolio.md)
