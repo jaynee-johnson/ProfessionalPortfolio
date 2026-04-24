@@ -12,7 +12,7 @@ nav:
   - Home: index.md
   - Resume: resume.md
   - Portfolio: 
-    - Project Explanations: portfolio.md
+    - Portfolio Guide: portfolio.md
     - Work Samples:
       - Routing: 
         - Routing Overview: routing/routing.md
