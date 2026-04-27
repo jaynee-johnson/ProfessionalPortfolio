@@ -18,7 +18,9 @@ Classics enabled multi-region storage to keep their call recordings in the same 
 Call recordings in all three regions follow the same Life Cycle Management rule. They archive after 90 days. When this occurs, the files are archived in the same region where they were stored.
 
 ## Multi-Region Storage Rules
+
 Multi-region storage rules use filters and rule priority to determine where to store files. A rule filter must include at least one of the following:
+
 - Teams or agents
 - ACD skills
 

@@ -4,6 +4,7 @@
 Multi-region storage requires a special license to use. Contact your Account Representative to enable it for you. Multi-region storage is mutually exclusive with both custom storage and custom AWS KMS keys.
 
 ## Enable Multi-Region Storage
+
 ![Image of the Multi-Region Storage enablement toggle](images/loc-enablemrs.png)
 
 1. Click the app selector ![icon of app selector](images/appselectoricon.png) and select **Admin**.
@@ -21,6 +22,7 @@ Before you begin creating your multi-region storage rules, carefully plan how yo
 - Rules are type-agnostic. Files of any type will be stored in the chosen reason if they match the rule criteria. To work around this, use the filter to select only ACD skills with the preferred media type.
 - You assign a priority level to a rule when you create or edit it. When a file is ready to be stored, rules are checked against the file in order of priority. If the file doesn't match any of the active rules, it's stored in the default region.
 - You can have up to 10 active multi-region storage rules at a time.
+
 ![Image of multi-region storage rules form](images/loc-createmrsrule.png)
 
 1. Click the app selector ![icon of app selector](images/appselectoricon.png) and select **Admin**.
