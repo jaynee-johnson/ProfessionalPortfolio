@@ -44,4 +44,7 @@ nav:
           - Skill-Level Static Delivery:
             - Skill-Level Static Delivery Overview: routing/staticdelivery/skilllevelstaticdelivery.md
             - Configure Priority for a Skill for Static Delivery: routing/staticdelivery/configureskillpriority.md
+      - Multi-Region Storage: 
+        - Multi-Region Storage Overview: multiRegionStorage/multiRegionStorage.md
+        - Configure Multi-Region Storage: multiRegionStorage/configureMultiRegionStorage.md
       - Release Notes Archive: releaseNotesArchive/index.htm
