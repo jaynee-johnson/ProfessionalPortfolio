@@ -33,7 +33,7 @@ Before you begin creating your multi-region storage rules, carefully plan how yo
     - If you can't find the rule you want to copy, click the Show drop-down above the table and select All. If you have many rules, you can shorten the list by using the search bar. You can also click the Filter An icon of a funnel icon and select the region associated with the rule you want to copy.
     
     DNIS appears in the product as an option but is not currently functional.
-    
+
 4. Fill in the required fields: 
     1. Enter a unique **Rule Name**.
     2. Select the **Region** where you want files that match the rule criteria to be stored. Only the physical file is stored in the chosen region. The metadata for all files is stored in the hosted region.
@@ -45,6 +45,7 @@ Before you begin creating your multi-region storage rules, carefully plan how yo
       - **Filter by Teams** or **Filter by Agents**: Use the radio buttons to choose whether you want to filter by the ***Teams*** or ***Agents***. Use the drop-down to select the teams or agents associated with the files you want to store in the chosen region.
       
       **Important**: DNIS appears in the product as an option but is not currently functional.
+
 6. Click **Create**.
 7. Repeat the preceding steps to create more rules. You may have up to 10 active rules.​
 
