@@ -34,10 +34,10 @@ Before you begin creating your multi-region storage rules, carefully plan how yo
     
     DNIS appears in the product as an option but is not currently functional.
 4. Fill in the required fields: 
-    1. Enter a unique **Rule Name**.
-    2. Select the **Region** where you want files that match the rule criteria to be stored. Only the physical file is stored in the chosen region. The metadata for all files is stored in the hosted region.
-    3. Specify a **Start Date** for the rule to begin taking effect.
-    4. Select the **Rule Priority** you want this rule to have. This sets the order in which CXone Mpower runs the rules attempt to match against the files, with highest priority rule running first.
+    - Enter a unique **Rule Name**.
+    - Select the **Region** where you want files that match the rule criteria to be stored. Only the physical file is stored in the chosen region. The metadata for all files is stored in the hosted region.
+    - Specify a **Start Date** for the rule to begin taking effect.
+    - Select the **Rule Priority** you want this rule to have. This sets the order in which CXone Mpower runs the rules attempt to match against the files, with highest priority rule running first.
 5. Configure or adjust the filter criteria for the rule. These are the properties the rule requires for a file to be stored in the chosen region. Use at least one of the following fields: 
      - **Filter by Skills**: Select the ACD skills associated with the files you want to store in the chosen region.
       - **Filter by Teams** or **Filter by Agents**: Use the radio buttons to choose whether you want to filter by the ***Teams*** or ***Agents***. Use the drop-down to select the teams or agents associated with the files you want to store in the chosen region.
