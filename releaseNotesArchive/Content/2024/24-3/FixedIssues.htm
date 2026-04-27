@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5skin" data-mc-search-type="Stem" data-mc-help-system-file-name="index.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-toc-path="2024 Release Notes|24.3 Release Notes" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <meta name="description" content="Issues fixed in CXone throughout the 24.3 release cycle." />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>24.3 Fixed Issues </title>
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.share-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.button.feedback-button
+{
+	-pie-background: linear-gradient(transparent, transparent);
+}
+
+.needs-pie
+{
+	behavior: url('../../../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" />
+        <script src="../../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" role="banner" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="2" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All pages" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All pages</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <!-- Google Tag Manager (noscript) -->
+                                    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFPX2J3" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+                                    </noscript>
+                                    <!-- End Google Tag Manager (noscript) -->
+                                    <div class="hidden" data-mc-conditions="Outputs.Blue">
+                                        <!-- Global site tag (gtag.js) - Google Analytics -->
+                                        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-73782956-4">
+                                        </script>
+                                        <script>/* <![CDATA[ */
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'UA-73782956-4'); <!--Universal Analytics code-->
+			gtag('config', 'G-1Q39PM5XRE'); <!--GA4 code-->/* ]]> */</script>
+                                        <!-- Gainsight and FullStory Analytics Code -->
+                                        <script src="/cxoneHelpAnalyticsConnector.js">
+                                        </script>
+                                        <script> /* <![CDATA[ */
+				document.addEventListener("DOMContentLoaded", function(){
+				try {
+				cxoneHelpAnalytics.helpInitAnalyticsFromStorage();
+				} catch (e) {}
+				});                
+			/* ]]> */</script>
+                                    </div>
+                                    <div data-sticky-container="" class="title-bar-container sticky-container-custom">
+                                        <div class="customTitleBar themePurple" data-mc-conditions="_TEMPLATE_LandingPage.themePurple">
+                                            <div class="ProductLogo"><a href="../../Home.htm" target="_blank"><img src="../../Resources/MasterPages/Images/NiCECXoneMPowerWhite.svg" /></a>
+                                            </div>
+                                            <div class="title" data-mc-conditions="_TEMPLATE_LandingPage.HeaderTitle"><a href="../../Home.htm" target="_blank">HELP CENTER</a>
+                                            </div>
+                                            <div class="CompanyLogo" data-mc-conditions="_TEMPLATE_LandingPage.HeaderCompanyLogo">
+                                                <img src="../../Resources/MasterPages/Images/NiCEWhite_BlueDot.svg" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hero">
+                                    </div>
+                                    <div>
+                                        <div class="sideNav">
+                                            <ul class="nocontent menu _Skins_LeftNav mc-component" data-mc-is-context-sensitive="True" data-mc-linked-toc="Data/Tocs/SideTOC.js" data-mc-side-menu="True" data-mc-max-depth="-1" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                            </ul>
+                                        </div>
+                                        <div class="topic-container">
+                                            <div class="ourTopicContainer">
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider="&gt;" data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix"> </span>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <div class="buttons popup-container clearfix topicToolbarProxy _Skins_Breadcrumbs mc-component nocontent" style="mc-topic-toolbar-items: AddTopicToFavorites;">
+                                                        <div class="button-group-container-left">
+                                                            <button class="button needs-pie share-button" onclick="document.location.href=&quot;mailto:?subject=Help Topic: &quot; + document.title +&quot;&amp;body=Help Topic: &quot; + location.href;" title="Email this online help page to someone">
+                                                                <div>
+                                                                    <div role="img" class="button-icon-wrapper">
+                                                                        <div class="button-icon"> </div>
+                                                                    </div>
+                                                                </div>
+                                                            </button>
+                                                            <button class="button needs-pie feedback-button" onclick="document.location.href=&quot;mailto:onlinehelpcr@nice.com?subject=Help Topic: &quot; + document.title +&quot;&amp;body=Help Topic: &quot; + location.href;" title="Send email feedback about this online help page">
+                                                                <div>
+                                                                    <div role="img" class="button-icon-wrapper">
+                                                                        <div class="button-icon"> </div>
+                                                                    </div>
+                                                                </div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="topicBody">
+                                                    <div role="main" id="mc-main-content">
+                                                        <h1 data-mc-conditions="ReleaseNotes.FI-Small" id="243FixedIssues" data-magellan-target="243FixedIssues"><a name="Dates"></a>24.3 Fixed Issues </h1>
+                                                        <div class="notification-note">
+                                                            <div class="notificationContent">
+                                                                <p>The date provided for each update is the date it was ready for release. Watch for a notification about when your organization will receive it. It will generally be within two weeks of the given date.</p>
+                                                            </div>
+                                                        </div>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="CumulativeUpdate7" data-magellan-target="CumulativeUpdate7"><a name="243CU7"></a>Cumulative Update 7</h2>
+                                                        <p>Published 17 December 2024<a href="#Dates">*</a></p>
+                                                        <div class="notification-note">
+                                                            <div class="notificationContent">
+                                                                <p>Features and fixes in this update will begin deploying in early January.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="notification-newfeature" data-mc-conditions="Outputs.Blue">
+                                                            <div class="notificationContent">
+                                                                <p>Features for CXone Agent, CXone Agent Embedded, CXone Agent for Microsoft Teams, and CXone Agent Integrated have been released with this update. For details, see the <a href="Release.htm#CUFeatures" target="_blank">Mid-Release Features</a> section of the 24.3 release notes.</p>
+                                                            </div>
+                                                        </div>
+                                                        <h4 class="distinct">ACD</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Disposition classifications for negative DNC interactions were erroneously prepended with 'Preview Reject -' for standard dispositions. This has been removed. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AAD-29839)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">ACD Routing</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>In certain systems, agents who were configured to handle one contact at a time sometimes received a call when they were already handling a live chat.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (VOL-5303)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>In systems where the routing script contained two <span class="studioAction">ReqAgent</span> actions, the <span class="studioAction">GetQueue</span> action sometimes returned the wrong value for longest queue.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (VOL-5350)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>In certain systems, an event caused routing to pause temporarily.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-38338)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>In certain systems, an event led to routing delays.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-38025, ORC-38118)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In certain systems, digital contacts were sometimes delayed in routing to available agents.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-121177)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Changing the assignment of a digital interaction from one agent to another failed.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AOR-6474)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Digital contacts sometimes took a couple minutes to route when agents were available.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AOR-5910)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Agent</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>Audio notifications didn't occur when the agents using the Edge browser didn't have the browser in focus.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-32241)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When auto accept was enabled, the <span class="interface">Accept</span> and <span class="interface">Reject</span> buttons were available when agents had CXone Agent in a smaller view.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-32099)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In chat skills where a disposition was required, the disposition window was disabled when the chat interaction ended.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-32017)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Agents were able to transfer real-time work items to persistent work item skills, and vice versa,  but the transfers failed. Agents are no longer able to transfer to work item skills of an incompatible type. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-31891)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent selected a contact in the contact history report, the previously selected contact was still shown. The agent had to click the contact again to see the right information.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-32531)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent entered a search and pressed <span class="keyboardKey">Enter</span> in the directory, only skills appeared. Team and agent lists didn't appear.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-31793)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Dashboard (Legacy)</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>The Skill widget didn't show digital skills.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-44912)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Personal Connection</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>When a user downloaded existing skills, the <span class="fieldName">Abandon Message Path</span> for dialer skills was populated with the <span class="fieldName">Answering Machine Message Path</span>.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-21886) </MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Platform </h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>For certain conferencing scenarios, call recordings for short calls would be five hours long.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-38299)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>Some externally transferred call recordings showed a duration of five hours.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-33062)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Reporting</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In some systems, scheduled reports failed to run.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-44617)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The CDR&#160;Plus Disposition data download report showed data outside the specified time period for Digital Experience email contacts.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-118978)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>An event led to real-time dashboards either not loading or not reflecting accurate data.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-37963)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Studio</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In certain systems, the execution time for <span class="studioAction">GetQueue</span> was longer than it should have been.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-38124)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>When the <span class="studioAction">Unlink</span> action was triggered in a call transfer scenario, the agent's leg didn't disconnect from the call. Instead, the second call connected to the transferred call, merging the two.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (VOL-5472)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="CumulativeUpdate6" data-magellan-target="CumulativeUpdate6"><a name="243CU6"></a>Cumulative Update 6</h2>
+                                                        <p>Published 19 November 2024<a href="#Dates">*</a></p>
+                                                        <div class="notification-newfeature">
+                                                            <div class="notificationContent">
+                                                                <p>Features&#160;for <MadCap:conditionalText data-mc-conditions="Outputs.Blue">CXone Agent, CXone Agent Embedded, CXone Agent for Microsoft Teams, CXone Agent Integrated, and </MadCap:conditionalText>Studio have been released with this update. For details, see the <a href="Release.htm#CUFeatures" target="_blank">Mid-Release Features</a> section of the 24.3 release notes.</p>
+                                                            </div>
+                                                        </div>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Agent</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>The chat response field was sometimes slow to display the text agents were typing. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate">(AW-30460)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent was configured to manually accept calls on an inbound skill and a contact ended the call before the agent accepted it, the agent state changed to Available and the agent could continue to receive contacts. However, if the refusal timeout period passed without the agent receiving a new contact, the agent state changed to Refused.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-36912)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When agents selected the preview option for a contact image, the image sometimes appeared distorted.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-31365)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The directory showed inactive users.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-31174)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Screen pops closed when a consult ended.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-31155)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When agents tried to elevate an interaction from digital to voice, the call failed.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-31040)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Downloading transcripts sometimes failed.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-30936)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Agents sometimes couldn't disposition a work item, chat, email, or SMS&#160;interaction while handling a call.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-30745)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Agents using JAWS could hear the hold timer even when the hold timer was out of focus.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-30737)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When agents were handling more than one contact, attempting to open the screen pop for one contact sometimes opened the screen pop for one of the other contacts. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate">(AW-30543)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Agents couldn't see the waiting interactions from the queue counter.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-31570)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent added another agent to a call and then hung up to complete a warm transfer, the agent left on the call could no longer see the call controls.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-32008)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Sometimes when agents opened CXone Agent, they couldn't see their queue or how long it was.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-31570)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">API</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In v31.0, the <span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">GET /skill/{skillId}/summary</span> call returned a negative value for <span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">averageWrapTime</span>.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-26955)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In v3.0, the <span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">/teams/&lt;teamID&gt;/performance-total</span> call took a long time to respond.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-44841)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In v10.0, the <span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">/report-jobs/datadownload/540</span> call took a long time to respond.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-44841)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Digital Experience</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>When a user updated the message template for a WhatsAppdigital outbound skill, the message template was updated for all WhatsApp outbound digital skills.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-22071)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">MAX</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>When an agent was configured to manually accept calls on an inbound skill and a contact ended the call before the agent accepted it, the agent state changed to Available and the agent could continue to receive contacts. However, if the refusal timeout period passed without the agent receiving a new contact, the agent state changed to Refused.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-36912)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Studio</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>The Version&#160;History page showed the incorrect time.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXWS-23364)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="CumulativeUpdate5" data-magellan-target="CumulativeUpdate5"><a name="243CU5"></a>Cumulative Update 5</h2>
+                                                        <p>Published 29 October 2024<a href="#Dates">*</a></p>
+                                                        <h4 class="distinct">ACD</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The audit history for a copied skill included the history of its parent skill.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AAD-29254)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent was configured to manually accept calls, they couldn't receive callbacks.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-35127)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">ACD Routing</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In some systems, channel lock wasn't locking agents to one channel as expected.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AOR-6098)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Admin</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>When an administrator edited agents' contact settings from a team profile, the wrong row was updated and the changes weren't saved.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AAD-29030)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Attendant</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>When an employee was created but not invited, configured for CXone Attendant, and then activated, the CXone Attendant extension field was blank.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ATT-17410)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Data Share</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>Dispositions applied to digital interactions didn't appear in the data lake.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-112297)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">IEX WFM Integrated</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Enabling or disabling IEX WFM for an entire team didn't work correctly.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (INT-49194)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">MAX</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>When agents using Integrated Softphone received an inbound call and clicked <span class="interface">Accept</span>, the call sometimes didn't connect correctly and was eventually marked as refused.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (MAX-14274)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Personal&#160;Connection</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>SMS templates were sometimes applied to SMS messages multiple times, resulting in duplicate messages to contacts.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-21068)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Reporting</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The Supervisor Snapshot and Agent Timecard reports were off by one hour.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-43772)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The Admin  and Agent CXone Logins data download report contained incorrect and missing data.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-43494)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>SMS contacts showed the wrong start time under the Transcript tab of the Contact History report.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-43436)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In some systems, running data download report 643 returned an error.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-43963)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>WFM and CXone Supervisor reports showed the wrong inbound contact state for Digital Experience contacts where the agent had the ability to accept or reject the contact.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-112832)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Studio</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The <span class="studioAction">OnRelease</span> event action failed to return a value for the <span class="fieldName">CauseCode</span> property.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-35902)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="CumulativeUpdate4" data-magellan-target="CumulativeUpdate4"><a name="243CU4"></a>Cumulative Update 4</h2>
+                                                        <p>Published 8 October 2024<a href="#Dates">*</a></p>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Routing</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>Updating an ACD&#160;User profile changed the team default setting.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (API-14352)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>In certain systems, an event caused contacts not to route to agents. Changes have been made to prevent future occurrences.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AOR-5762) </MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When a user turned on <span class="fieldName">Channel Lock</span> for a team, the change didn't save.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (API-14536)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Agent</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>Custom form screen pops didn't close when agents successfully submitted them. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate">(AW-27870)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When agents clicked <span class="interface">Save &amp;&#160;Close</span> in the Microsoft Dynamicsapplication, a CXone Agent logout confirmation window appeared.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CRM-12175)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When agents were responding to an email and then accepted an interrupting call, the last few lines they had typed in the email response area disappeared.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29909)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent consulted with and then transferred a call to another agent, the receiving agent's call controls disappeared.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29817)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Agents using softphone didn't have a hold time counter.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29519)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent was in the small view, the <span class="interface">Accept</span> and&#160;<span class="interface">Reject</span> buttons weren't available for callbacks.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29629)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When the ability to place a conference call on hold was enabled, agents resuming any held call were still recorded as being on hold instead of switching to an active status.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29483)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Agents sometimes received an error when clicking the <span class="interface">Send Approval</span> button, even when they had the correct permissions.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29729)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When a Personal&#160;Connection call was delivered to an agent, the active contact lost focus and agents had to click to open screen pops.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29972)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent was handling an email and a call came, in, the contact name on the email changed to the name of the caller.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-30079)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">API</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In v23, <span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">contact/state-history</span> calls displayed the wrong time zone for <span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">lastPollTime</span>.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-43116)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p><span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">/skills</span> calls failed in v31.0.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-20762)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>In some systems, users couldn't add a new dynamic address book.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (API-14640)</MadCap:conditionalText></li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>Updating an ACD&#160;User profile sometimes changed the team default setting.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (API-14352)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Cloud&#160;Storage&#160;Services</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>In some environments, recordings pulled from long-term storage couldn't be played.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DST-5220)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Digital Experience</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>The chat queue indicator displayed to the contact was sometimes incorrect.&#160;Refreshing it set the queue number to 99.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-115237)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In certain systems, CXone Dashboard widgets were showing lower Digital Experience volumes than they should have.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-115198)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Interaction Analytics</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>AutoDiscovery could take a very long time to load and even time out while loading.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AN-55527)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Reporting</h4>
+                                                        <ul>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The reporting data wasn't populating in the Skill Summary widget in CXone Dashboard.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-43204)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In the Agent Summary by Day data download report, the values for <span class="fieldName">Outbound_Time</span> and <span class="fieldName">ACD_Time</span> were incorrect.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-42735)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>CXone recordings weren't loading in the Contact History report when the user's browser was set to a language where dates use commas instead of periods.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-43243)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The Transfers data download report included contacts that hadn't been transferred.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-43242)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The Custom CDR&#160;Extra data download report returned a 504 timeout error.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-42311)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The Active Contacts report didn't always match the active contacts that were returned by the <span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">GET /contacts/active</span> API&#160;call.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-35313)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Personal&#160;Connection</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Rarely, multiple calls were placed to the same contact at the same time and assigned to different agents.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-20857)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Studio</h4>
+                                                        <ul>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>Actions specified in an inbound interaction Studio script weren't happening when the script had a long subscript or the inbound script ran continuously with subscripts.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (VOL-4776)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When a script contained a screen pop in the <span class="studioAction" data-mc-conditions="Outputs.DoNotTranslate">OnPageOpen</span> action, the screen pop failed and produced an error.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (STX-24027)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The Digital Experience platform produced an error when the <span class="studioAction" data-mc-conditions="Outputs.DoNotTranslate">DigitalForward</span> action <span class="fieldName">To</span> property contained an email address with a subdomain.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-114820)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="PipelineUpdate163" data-magellan-target="PipelineUpdate163"><a name="PU163"></a>Pipeline Update 163</h2>
+                                                        <p>Published 1 October 2024<a href="#Dates">*</a></p>
+                                                        <h4 class="distinct">ACD Routing</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In some systems, the agent's screen was being recorded for several hours after the call ends, even when they handled more calls after the recording began.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-35579)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Admin</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>The <span class="fieldName">Login Authenticator</span> drop-down in the employee profile sometimes listed the same login authenticator more than once.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate">  (SC-56298)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Studio</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>When the language was in any supported language other than English, the Actions palette still displayed action category names in English.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXWS-10628)</MadCap:conditionalText></li>
+                                                            <li>The <span class="studioAction" data-mc-conditions="Outputs.DoNotTranslate">VOICEPARAMS</span> action <span class="fieldName">TTS&#160;Voice</span> property displayed values in the wrong format.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXWS-16432)</MadCap:conditionalText></li>
+                                                            <li>The Work&#160;Item category did not display in the Actions palette . <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXWS-22591)</MadCap:conditionalText></li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Digital Experience</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>In some systems, contacts weren't routing automatically.&#160;This caused interactions to be stuck in queue while agents were available.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-115214)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">IEX WFM Integrated</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The interval publisher would stop working under certain conditions.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (INT-48272)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The state publisher restarted intermittently.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (INT-48108)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="CumulativeUpdate3" data-magellan-target="CumulativeUpdate3"><a name="243CU3"></a>Cumulative Update 3 </h2>
+                                                        <p>Published 10 September 2024<a href="#Dates">*</a></p>
+                                                        <div class="notification-newfeature" data-mc-conditions="Outputs.Blue">
+                                                            <div class="notificationContent">
+                                                                <p>Several Copilot for Agents features have been released with this update. For details, see the <a href="Release.htm#CUFeatures" target="_blank">Mid-Release Features</a> section in the new features section of the release notes.</p>
+                                                            </div>
+                                                        </div>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Agent</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>Screen pops didn't work correctly in certain instances of CXone Agent Embedded.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-28996)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When users hovered over custom fields they saw the field ID  instead of the field value.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-28944)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p> When users logged in to WebRTC and the CXone Agent Chrome extension, the agent leg sometimes wouldn't connect.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29377)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In CXone Agent Embedded for Salesforce, screen pops would duplicate across all open tabs when <span class="fieldName">Panel Open in Browser</span> was enabled.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29518)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Agents didn't receive visual notifications when they received chat messages.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29009)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">IEX WFM Integrated</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Statuses sometimes became stuck, resulting in incorrect data in Adherence reporting.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate">&#160;(INT-47907)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">MAX</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>When a contact was transferred, MAX sometimes remained on hold for the agent who should have been released from the call.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ESC-77538)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Some quick replies  included the word "Null"&#160;at the bottom when they were added to outbound email messages.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (MAX-14627)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Reporting</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The single-day view of the Billing report showed Fair Peak and Clipped Peak in the chart legend. Both of those concepts had previously been removed from CXone. Fair Peak and Clipped Peak have been removed from the chart legend, the Clipped column has been removed from the report, and the Fair Peak header in the chart grid view has changed to Agent Peak. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-42122)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Refusals for chat and work item contacts were not always properly reflected in the Agent State History report.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-35078)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Studio</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>When users tried to save changes to a script that contained the <span class="studioAction">OnPageOpen</span> action, they received an error.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (STX-23692)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The <span class="studioAction">PAGE</span> action wasn't correctly opening and closing screen pops in CXone Agent.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-29450)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="PipelineUpdate162" data-magellan-target="PipelineUpdate162"><a name="PU162"></a>Pipeline Update 162</h2>
+                                                        <p>Published 10 September 2024<a href="#Dates">*</a></p>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Admin</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>When access to a campaign was restricted from the roles and permissions area, attempts to remove the restrictions didn't save correctly.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AAD-28478)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Digital Experience</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>In some environments, scheduled jobs intended to delete messages did not delete the messages.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-111991)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Inbound emails sometimes arrived without their attachments.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-112672)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When a digital SMS&#160;channel was deleted and then the same phone number was used for a new digital SMS channel, messages to that number continued to route through the deleted SMS&#160;channel.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-112543)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When systems didn't have a default SLA&#160;time set, attempting to set one resulted in an error.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-112368)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When users submitted offline chat forms, the email didn't send.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-113618)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In Guide chat, the wrong queue count was sometimes shown.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-113357)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Under certain conditions, generating voice contacts as part of a Digital Experience workflow schedule resulted in the voice contacts not auto-closing.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-112971)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Interactions were sometimes not assigned a priority. This blocked the interactions from being worked on since interactions with priorities assigned to them were delivered first.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-112336)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Dashboard</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>The Dashboard Management page sometimes contained duplicate entries.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXCV-27236)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">IEX WFM Integrated</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In systems with a lot of data, the state publisher would sometimes crash and stop reporting accurate state data.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (INT-48562)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The reported talk time for agents was sometimes longer than the interval boundary.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (INT-48223)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="CumulativeUpdate2" data-magellan-target="CumulativeUpdate2"><a name="20243CU2"></a>Cumulative Update 2</h2>
+                                                        <p>Published 20 August 2024<a href="#Dates">*</a></p>
+                                                        <h4 class="distinct">ACD</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Downloading the existing ACD skills from the bulk upload tool produced an error when the system didn't have Personal&#160;Connection enabled.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-20561)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The audit history for ACD users sometimes failed to generate.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AAD-28106)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Routing</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>In some systems, the IVR stopped playing music for the caller once the call routed to an agent and the Studio script moved on from the <span class="studioAction">Playlog</span> action.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (VOL-4452)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Agent applications</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>In systems with preview Personal&#160;Connection dialing enabled, the agent leg was disconnected when they clicked <span class="interface">Requeue</span> in the preview window.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-28696)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an interaction was transferred, data memorialization didn't work for the receiving agent.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-28449)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>External directory contact statuses weren't synced in real time.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-28124)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent forwarded an email, the text cursor appeared at the end of the editor instead of the beginning.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-28118)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The <span class="fieldName">Call from</span> and <span class="fieldName">Call to</span> fields weren't being populated with client credentials in Microsoft Dynamics 365 for OAuth.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CRM-11786)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When agents used the Chrome extension with the HubSpot CXone Agent integration,  incoming calls logged the agent out of the agent application.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CRM-11785)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When an agent tried to <span class="interface">Reply All</span> to a Digital email, the last email listed in the <span class="fieldName">CC</span> field was not included in the reply.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-28867)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">API</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The <span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">/services/v3.0/agents/{agentId}/queues</span> call failed and increased the CPU&#160;utilization, resulting in performance issues.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (API-14274)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Digital Experience</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>The number of cases in the CXone Dashboard queue counter widget didn't match the digital CRM&#160;count.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-111559)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Personal&#160;Connection</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In some systems, agents were available for long periods without having available dialer contacts routed to them.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-20636)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">platform</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In rare cases, when an agent tried to log out of the agent application, the process failed. When the agent logged back in, they re-entered the old session that was still attempting to log out.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-19941)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Reporting</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In some systems, attempting to download a data download report resulted in a 504 timeout error due to denied permissions.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-42762)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="PipelineUpdate" data-magellan-target="PipelineUpdate"><a name="2403PU161"></a>Pipeline Update</h2>
+                                                        <p>Published 20 August 2024<a href="#Dates">*</a></p>
+                                                        <h4 class="distinct">CXone Routing</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In rare cases, contacts expired based on the wrong timestamp, causing contacts to not route.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AOR-5701)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Digital Experience</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>In some systems, emails intermittently showed an empty value in the Priority column.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-111190)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Reporting</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The Adherence BI&#160;Report showed Unknown as the default mapped system activity.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (INT-48123)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="243CumulativeUpdate1" data-magellan-target="243CumulativeUpdate1"><a name="24-3CU1"></a>24.3 Cumulative Update 1</h2>
+                                                        <p>Published 6 August 2024<a href="#Dates">*</a></p>
+                                                        <h4 class="distinct">ACD</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Using search to locate stations didn't work correctly if the search value was long.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (API-14061)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When a user with their browser language set to Japanese created a new skill, they weren't required to select a <span class="fieldName">Media Type</span>.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AAD-27771)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>Having an <span class="studioAction" data-mc-conditions="Outputs.DoNotTranslate">End</span> action in an hours of operation script could cause a port to go out of sync and be unavailable for use.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ESC-71600)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Agent applications</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>User-defined unavailable codes didn't display correctly in the CXone Agent Productivity report in Japanese.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-40894)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The <span class="interface">Accept</span> in a preview dialer call sometimes didn't work.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-28047)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">API</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p><span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">GET/agents/interaction-history</span> returned a future date for <span class="techBlock" data-mc-conditions="Outputs.DoNotTranslate">lastPollTime</span>.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-40826)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The skill summary call incorrectly returned 0 for certain fields.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-41521)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Digital Experience</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>When many actions happened at the same time, Digital Experience reports were sometimes inaccurate.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-110803)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Reporting</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>In some systems, report templates took a long time to load.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-41453)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When a user edited a custom report template, changed the date range, and clicked <span class="interface">Done</span>, the page didn't refresh and the changes weren't saved.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (RPT-41564)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Studio</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Some scripts containing the Snippet action produced a validation error.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (STX-23681)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The <span class="fieldValue">Create Timeline</span> option for the <span class="studioAction">Agent Workflow Execution</span> action didn't create a timeline.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-27883)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>In digital scripts, the <span class="studioAction">GetMessages</span> Studio action sometimes returned an error.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-111308)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Voice&#160;Quality&#160;Metrics</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The tile data was unavailable when a user's browser language was set to Portuguese.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (PSHM-20016)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="PipelineUpdate160" data-magellan-target="PipelineUpdate160"><a name="24-3PU160"></a>Pipeline Update 160</h2>
+                                                        <p>Published 30 July 2024<a href="#Dates">*</a></p>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Admin</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The file with existing teams, downloaded from the bulk upload tool, sometimes didn't show all the assigned team leads.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (UH-40840)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Digital Experience</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>Digital chat sometimes experienced slow response times.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-110271)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The post count for inbound emails sometimes reported multiple messages from the contact when there was only one.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-110007)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The chat queue sometimes showed the contact as 99th in line when the queue was much smaller than that.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-109637)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">IEX WFM</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The Queue and AgentQueue reports showed different values for the same metrics.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate">&#160;(INT-47862)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h2 class="distinct" data-mc-conditions="ReleaseNotes.FI-Small" id="243Release" data-magellan-target="243Release"><a name="24-3"></a>24.3 Release</h2>
+                                                        <p>23 July 2024<a href="#Dates">*</a></p>
+                                                        <h4 class="distinct">ACD</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The point of contact audit history was missing some data.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AAD-25041)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In environments experiencing a sudden large increase in inbound emails, contact routing would sometimes slow down.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ORC-33453)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Admin</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>When changing a user's assigned role, the user continued to have the old role if the change was made through the Roles &amp; Permissions page instead of from the Employees page.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (SC-52708)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The list of agents in a team didn't match the list returned when the list was pulled using an API&#160;call. This was related to a brief server outage.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (UH-39938)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Agent applications</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>When an agent accepted a second interaction that resulted in a second <a href="#" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open glossaryTerm glossaryTermPopup MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup" glossTerm="CXone.Term39">screen pop<img class="MCHelpControl_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"> </span>A configurable pop-up window with information about the contact. It appears on an agent's screen after a certain event, usually when the agent connects to a contact.</span></a> opening in a pop-up window, the new pop-up window was blank.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-26560)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Quick replies sometimes weren't available for outbound emails.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-27369)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Agents couldn't copy and paste URLs under the <span class="interface">Add Link</span> button in emails.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-27226)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When a conference call between two agents and a contact ended, the two agents were stuck in the conference.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-27091)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Custom details were deleted from a case if the agent tried to edit custom fields, the case was unassigned from the agent, or the custom fields were hidden.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-27574)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>To type in a chat window, most of the agent typing area wasn't clickable. Agents had to click in the far left side of the text area to type in it.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-27016)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>In some systems, agents who accepted a call weren't connected to it.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-27881)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>After agents assigned a <a href="#" class="MCTextPopup MCTextPopupHotSpot MCTextPopup_Open glossaryTerm glossaryTermPopup MCTextPopupHotSpot_ MCTextPopupHotSpot_Popup" glossTerm="CXone.Term13">disposition<img class="MCHelpControl_Image_Icon" src="../../../Skins/Default/Stylesheets/Images/transparent.gif" height="11" width="16" alt="Closed" data-mc-alt2="Open" /><span class="MCTextPopupBody popupBody"><span class="MCTextPopupArrow"> </span>Result assigned by the agent or system at the end of a voice (disposition) or digital (status) interaction.</span></a> to a voicemail, they could not access the Outcomes window again unless they refreshed the agent application.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (AW-28094)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">API</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Very rarely, pulling an agent by ID&#160;would incorrectly report the agent ID as invalid.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (API-13790)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>All versions of PUT /teams/{teamId|teamuuid} were failing to update team details when using a teamuuid. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate">(API-13554)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Dashboard</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>In the Agent List Widget, the agent state details were  sorted numerically instead of the actual time order.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXCV-20699)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>Resizing column headers led to reduced title visibility due to indentation and the sorting icon occupying space.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXCV-14280)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>The Agent List widget could not be re-sized to view more users. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXCV-25999)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Digital Experience</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>Attempting to activate a new X (formerly known as Twitter) channel failed.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-109325)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When game mode was enabled for a chat channel, the <span class="interface">Start</span> button for the game was no longer available.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-107712)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">Enlighten AutoSummary</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>Summarizations sometimes included incorrect order or account numbers.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (ILLUM-10370, ILLUM-9840)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">IEX WFM</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>State processing events were sometimes delayed in certain systems.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (INT-47927)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Partner Tools</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Monitoring Gateway wasn't available for users in the EU region.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (PSHM-19787)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Personal&#160;Connection</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>When a user uploaded a calling list with <span class="fieldName">Use First Row as Column Names</span> selected and and file didn't have a column header with the string 'ID', the process failed.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-19309)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct" data-mc-conditions="Outputs.Blue">CXone Recording</h4>
+                                                        <ul data-mc-conditions="Outputs.Blue">
+                                                            <li>
+                                                                <p>There were occasional instances when call recording was not available. The recording alert was "No connection to media server".<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXREC-62950)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Reporting</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The Contact Detail report sometimes didn't include completed Personal&#160;Connection call attempts.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (OB-19576)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The RTIG BI&#160;report sometimes timed out for even small amounts of data.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXBI-5509)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>BI report subscriptions sent two emails instead of one.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXBI-5304)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Salesforce Agent</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>When agents drafted an email, then switched to view a chat, their email draft was deleted. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate">(SF-13563)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li>
+                                                                <p>When agents started a second call, or a new call for a conference or transfer, Salesforce refreshed. <MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate">(SF-13596)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <h4 class="distinct">Studio</h4>
+                                                        <ul>
+                                                            <li>
+                                                                <p>Inbound phone scripts that included the <span class="studioAction">DNCLOOKUP</span> action sometimes produced an error and dropped the call.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (VOL-4062)</MadCap:conditionalText></p>
+                                                            </li>
+                                                            <li data-mc-conditions="Outputs.Blue">
+                                                                <p>The <span class="studioAction">FORWARD_EMAIL_DIGITAL</span> action didn't include required data, which resulted in email not threading and creating a new case.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (DE-102084)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>
+                                                                <p>The group filter is not working on the SU page.<MadCap:conditionalText data-mc-conditions="Outputs.DoNotTranslate"> (CXWFM-50675)</MadCap:conditionalText></p>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="inTopicMenu">
+                                                <div data-sticky-container="" id="HFjkZXZewk-bnzsbEMfstw">
+                                                    <div class="sticky sticky-menu" style="width:100%" data-sticky="" data-top-anchor="HFjkZXZewk-bnzsbEMfstw:top" data-bottom-anchor="contentBody:bottom" data-sticky-on="small" data-scroll-container-on="small">
+                                                        <ul data-magellan="" data-animation-duration="250" data-active-class="selected" data-scroll-container-on="small" class="nocontent menu _Skins_RightNav mc-component">
+                                                            <li><a href="#243FixedIssues">24.3 Fixed Issues </a>
+                                                            </li>
+                                                            <ul>
+                                                                <li><a href="#CumulativeUpdate7">Cumulative Update 7</a>
+                                                                </li>
+                                                                <li><a href="#CumulativeUpdate6">Cumulative Update 6</a>
+                                                                </li>
+                                                                <li><a href="#CumulativeUpdate5">Cumulative Update 5</a>
+                                                                </li>
+                                                                <li><a href="#CumulativeUpdate4">Cumulative Update 4</a>
+                                                                </li>
+                                                                <li><a href="#PipelineUpdate163">Pipeline Update 163</a>
+                                                                </li>
+                                                                <li><a href="#CumulativeUpdate3">Cumulative Update 3 </a>
+                                                                </li>
+                                                                <li><a href="#PipelineUpdate162">Pipeline Update 162</a>
+                                                                </li>
+                                                                <li><a href="#CumulativeUpdate2">Cumulative Update 2</a>
+                                                                </li>
+                                                                <li><a href="#PipelineUpdate">Pipeline Update</a>
+                                                                </li>
+                                                                <li><a href="#243CumulativeUpdate1">24.3 Cumulative Update 1</a>
+                                                                </li>
+                                                                <li><a href="#PipelineUpdate160">Pipeline Update 160</a>
+                                                                </li>
+                                                                <li><a href="#243Release">24.3 Release</a>
+                                                                </li>
+                                                            </ul>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hidden">
+                                        <html>
+                                            <body>
+                                                <p>Search</p>
+                                            </body>
+                                        </html> <!-- Google Tag Manager (noscript) --><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KFPX2J3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><!-- End Google Tag Manager (noscript) --><div class="hidden" data-mc-conditions="Outputs.Blue"><!-- Global site tag (gtag.js) - Google Analytics --><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-73782956-4"></script><script>/* <![CDATA[ */
+				window.dataLayer = window.dataLayer || [];
+				function gtag(){dataLayer.push(arguments);}
+				gtag('js', new Date());
+
+				gtag('config', 'UA-73782956-4'); <!--Universal Analytics code-->
+			gtag('config', 'G-1Q39PM5XRE'); <!--GA4 code-->/* ]]> */</script><!-- Gainsight and FullStory Analytics Code --><script src="/cxoneHelpAnalyticsConnector.js"></script><script> /* <![CDATA[ */
+				document.addEventListener("DOMContentLoaded", function(){
+				try {
+				cxoneHelpAnalytics.helpInitAnalyticsFromStorage();
+				} catch (e) {}
+				});                
+			/* ]]> */</script></div></div>
+                                    <div data-mc-conditions="_TEMPLATE_ContentStatus.LocalizationSpecific">
+                                        <div data-mc-conditions="Outputs.Blue">
+                                            <script type="text/javascript" src="../../Resources/Scripts/i18next-1.10.1.min.js">
+                                            </script>
+                                            <script type="text/javascript" src="../../Resources/Scripts/LangDetect.js">
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
